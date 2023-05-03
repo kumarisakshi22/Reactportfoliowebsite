@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kumarisakshi22.github.io/Portfolio",
-  "name": "Portfolio",
+  
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
