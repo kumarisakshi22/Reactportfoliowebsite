@@ -9,8 +9,7 @@ function PricingCard() {
                 <div className="card">
                     <h3>-Responsive Portfolio Website -</h3>
                     <span className="bar"></span>
-                    <p className="btc">$100
-                    </p>
+                    
                     <p>- 2 Days -</p>
                     <p>- 4 Pages -</p>
                     <p>- Featured -</p>
@@ -23,8 +22,7 @@ function PricingCard() {
                 <div className="card">
                     <h3>-TextUtils Word Calculator-</h3>
                     <span className="bar"></span>
-                    <p className="btc">$50
-                    </p>
+                    
                     <p>- 2 Days -</p>
                     <p>- 2 Pages -</p>
                     <p>- Featured -</p>

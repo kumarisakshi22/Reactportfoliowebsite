@@ -16,16 +16,31 @@ code {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-family: 'Ubuntu', sans-serif;
 
 }
 body{
-  background: black;
+  background: rgb(0, 0, 0);
 }
-h1,h4,p,
-a{
-  color: aliceblue;
+h1{
+  color: rgb(8, 139, 247);
   text-decoration: none;
+}
+h4{
+  color: rgb(137, 255, 214);
+  text-decoration: none;
+
+
+}
+p{
+  color:rgb(137, 255, 214);
+  text-decoration: none;
+
+}
+a{
+  color: rgb(255 255 255);
+  text-decoration: none;
+
 }
 ul{
   list-style-type: none;
@@ -34,19 +49,19 @@ ul{
   padding: 12px 32px;
   font-size:1rem;
   text-transform: uppercase;
-  background:yellow;
-  color: #211c1c;
-  border: 1px solid wheat;
+  background:rgb(131, 129, 157);
+  color: #000000;
+  border: 1px solid rgb(149, 148, 148);
   font-weight: 600;
   cursor: pointer;
 }
 .btn-light{
   background: transparent;
-  color: white;
+  color: rgb(255, 255, 255);
 
 }
 .btn:hover{
-  background: grey;
+  background: rgb(255, 253, 253);
   color: white;
   transition: 0.3s;
 }

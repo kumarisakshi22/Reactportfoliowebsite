@@ -1,5 +1,5 @@
 label{
-    color: white;
+    color: rgb(216, 248, 8);
     margin-bottom: 0.5rem;
 
 
@@ -16,7 +16,7 @@ form input, form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;
     font-size:1.2rem;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(49, 49, 49);
     border-color: rgb(35, 35, 35);
     color:rgb(233, 222, 222);
 
