@@ -28,17 +28,17 @@ const Navbar = () => {
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <Link to="/">Home</Link>
+                    <a to="/">Home</a>
                 </li>
 
                 <li>
-                    <Link to="/project">Project</Link></li>
+                    <a to="/project">Project</a></li>
                 <li>
-                    <Link to="/about">About</Link></li>
+                    <a to="/about">About</a></li>
                 <li>
-                    <Link to="/contact">Contact</Link></li>
+                    <a to="/contact">Contact</a></li>
                 <li>
-                    <Link to="/certi">Certificates</Link></li>
+                    <a to="/certi">Certificates</a></li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
                 {click ? (<FaTimes size={20} style={{ color: "#fff" }} />) : (<FaBars size={20} style={{ color: "#fff" }} />)}
